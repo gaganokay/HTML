@@ -1,0 +1,126 @@
+<!-- A tag is a markup (meaningful) entity, used to provide semantics, structure or format the website.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- heading tags are range from h1 to h2 with higher to lower semantics -->
+    <!-- we can also use the "style" attribute to give style in the heading but, styling is preferred using CSS only, not with HTML  -->
+    <h1 style="background-color: aqua;">This is my First Heading</h1>
+    <h2 style="color: brown;">This is my Second Heading</h2>
+    <h3>This is my Third Heading</h3>
+    <h4>This is my Fourth Heading</h4>
+    <h5>This is my Fifth Heading</h5>
+    <h6>This is my Sixth Heading</h6>
+
+    <!-- p tag is used to add a paragraph  -->
+    <p>I am Compute Science student at Delhi Technological University.</p>
+
+    <!-- anchor tag "a" is used to add links -->
+    <!-- href (Hypertext Reference) attribute takes the source of the link
+        1. "https://" prefix for website
+        2. "tel:" prefix for phone number
+        3. "mail:" prefix for mail  -->
+    <!-- target="_blank" attribute opens the page in the new tab  -->
+    <!-- "title" attribute shows a text while hovering over link  -->
+    <a href="https://www.google.com" target="_blank" title="Let's go to Google">GOOGLE</a>
+
+    <!-- ul tag is used to create an unordered list  -->
+    <!-- ol tag is used to create an ordered list  -->
+    <!-- li tag is used to add items in it  -->
+    <!-- type attribute is used to change serial-type of list  -->
+    <ul>
+        <li>Maggi</li>
+        <li>Pizza</li>
+        <li>Pasta</li>
+    </ul>
+
+    <ol>
+        <li>Thumbs Up</li>
+        <li>Coca Cola</li>
+        <li>Sprite</li>
+    </ol>
+
+    <!-- table tag is used to create a table -->
+    <!-- tr tag is used to add a row  -->
+    <!-- td tag is used to add data in a row  -->
+    <table>
+        <tr>
+            <td>Roll No.</td>
+            <td>Name</td>
+            <td>LogIn</td>
+        </tr>
+        <tr>
+            <td>61</td>
+            <td>Gagandeep</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>62</td>
+            <td>Elizabeth</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <!-- img tag is used to add an image  -->
+    <!-- src attribute takes the source of image  -->
+    <!-- alt attribute takes the alternate text if image isn't visible due to any reason -->
+    <!-- absolute path - source from internet
+    relative path - source from directory ("./" for current directory & "../" for parent directory) -->
+    
+    <!-- clickable image  -->
+    <a href="https://www.youtube.com/channel/UC5XMNzImFGrHqyBosGm6ZaQ" target="_blank">
+        <img src="https://play-lh.googleusercontent.com/MDRYB4xnjO94gzMTaQ0MLFZErOEsHs-sXYgR2inKt6O1mjXHObhSnccmEBLV2I131FE" alt="Parmish Verma">
+    </a>
+    <br>
+    
+    <hr>
+    <h3>Picture Tag</h3>
+    <!-- "picture" tag contains multiple "source" of the images and one default "img" tag at end, for different devices  -->
+    <!-- ".webp" is the modern image format  -->
+    <picture>
+        <source srcset="./Images/profile.webp">
+        <source srcset="./Images/profile.jpg">
+        <img src="./Images/profile.jpg" alt="profile">
+    </picture>
+    
+    <hr>
+    <h3>Figure Tag</h3>
+    <!-- "figure" tag is used to add a caption for the image  -->
+    <figure>
+        <img src="./Images/profile.jpg" alt="profile">
+        <figcaption>I am Gagandeep</figcaption>
+    </figure>
+
+    <hr>
+    <!-- "b" and "strong" tag is used to bold the text but, strong tag is more meaningful to emphasize  -->
+    <!-- "i" and "em" tag is used to italic the text  -->
+    <!-- "u" tag is used to underline the text  -->
+    <!-- "s" or "del" tag is used to strike the text  -->
+    <!-- "mark" tag is used to highlight the text  -->
+
+    <p>Lorem <strong>Gagandeep</strong> dolor sit amet <em>Singh</em> adipisicing elit. <u>Elizabeth</u>, voluptatum? Id, <s>Olsen</s> ex omnis optio fugit dignissimos adipisci iure <mark>expedita.</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <!-- "bdo" tag is used to define the direction of tag using dir="ltr/rtl" attribute  -->
+    <p><bdo dir="ltr">Left to Right</bdo></p>
+    <p><bdo dir="rtl">Right to Left</bdo></p>
+
+    <!-- "sup" and "sub" tags are used to superscript and subscript the text -->
+    <p>2<sup>5</sup> <br>O<sub>2</sub></p>
+
+    <!-- pre tag is used to display the text as it is without removing the whitespaces  -->
+    <pre>My
+        Name
+        is
+        Gagandeep
+    </pre>
+
+    <!-- study "Structural Tags" -->
+    <!-- study "HTML Entities" -->
+</body>
+</html>

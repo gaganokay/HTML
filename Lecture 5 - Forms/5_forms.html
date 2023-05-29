@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- FORMS : It is used to collect User Input  -->
+
+    <!-- "form" tag is used to create a HTML form  -->
+    <!-- "input" tag is used to collect user input in different ways using different "type" attributes like, text, radio, checkboxes, date, etc.
+        -- default type = text
+        -- "name" attribute provides a name to the input tag
+        -- "value" attribute displays a text inside the input tag
+        -- "min/maxlength" attribute sets the min/max data should taken
+        -- "placeholder" attribue displays a faded text inside the input tag
+        -- "submit" type sends all the data to the specified location
+        -- autocomplete="off" will not show the suggested words while typing
+        -- "required" keyword makes the input field mandatory
+        -- "autofocus" keyword will automatically move the cursor there at first (first field to be filled) -->
+    <!-- "label" tag is used to provide a label or meaning to an input (label's "for" attribute should contain the input's "id" for linking) -->
+    <!-- "select" tag is used to add a drop-down menu  
+        -- "multiple" attribute is used to select multiple options -->
+    <!-- "option" tag is used to add different options in "select" tag  -->
+    <!-- "button" tag is used to create a button  -->
+    <!-- "textarea" tag is used to create a dynamic text field
+        -- "rows" and "column" attribute creates the default size of textarea -->
+    <!-- "fieldset" tag is used to create a block of similar input tags  -->
+    <!-- "legend" tag is used to create to provide a caption to "fieldset"  -->
+
+    <!-- DIFFERENT INPUT  
+        -- text
+        -- button
+        -- radio (use same names to select only one radio at a time)
+        -- checkbox
+        -- file (used to upload a file)
+        -- image (adding a image button) 
+        -- password (displays dotted text)
+        -- date
+        -- color
+        -- range
+        -- progress -->
+
+
+    <!-- <form action="">
+        <label for="email">Enter Email ID : </label>
+        <input type="text" id="email" placeholder="abc@gmail.com">
+
+        <br> <br>
+
+        <label for="password">Enter Password : </label>
+        <input type="text" id="password">
+
+        <br> <br>
+
+        <input type="submit" value="Submit">
+        <button onclick="alert(Hi!)">Click Here</button>
+    </form> -->
+
+
+    <!-- <fieldset>
+    <legend>HTML Form Dummy</legend>
+        <form action="">
+            <label for="datepicker">Choose Date : </label>
+            <input type="date" id="datepicker">
+    
+            <br><br>
+    
+            <label for="selector1">Choose your Dish : </label>
+            <select name="Dishes" id="selector1" multiple>
+                <option value="maggi">Maggi</option>
+                <option value="pizza">Pizza</option>
+                <option value="pasta">Pasta</option>
+            </select>
+    
+            <br><br>
+    
+            <button>Order</button>
+    
+            <br><br>
+    
+            <textarea name="text-area-1" id="text-area-1" cols="30" rows="10" placeholder="Enter text here.."></textarea>
+        </form>
+    </fieldset> -->
+
+
+    <!-- <form action="">
+        <label for="text-field-1">TextField : </label>
+        <input type="text" name="text-field-1" id="text-field-1">
+        <br><br>
+
+        <label for="button-1">Button : </label>
+        <input type="button" name="button-1" id="button-1" value="Click">
+        <br><br>
+
+        <label for="radio-1">Radio 1 : </label>
+        <input type="radio" name="radio-1" id="radio-1">
+        <br><br>
+        <label for="radio-2">Radio 2 : </label>
+        <input type="radio" name="radio" id="radio-2">
+        <br><br>
+        <label for="radio-3">Radio 3 : </label>
+        <input type="radio" name="radio" id="radio-3">
+        <br><br>
+
+        <label for="checkbox-1">CheckBox 1 : </label>
+        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+        <br><br>
+        <label for="checkbox-2">CheckBox 2 : </label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">
+        <br><br>
+        <label for="checkbox-3">CheckBox 3 : </label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">
+        <br><br>
+
+        <label for="file-select-1">Upload : </label>
+        <input type="file" name="file-select-1" id="file-select-1">
+        <br><br>
+
+        <input type="image" name="image-button-1" id="image-button-1" alt="Click Here" src="button-1.png" height="40px" width="40px">
+        <br><br>
+
+        <label for="password-1">Enter Password : </label>
+        <input type="password" name="password-1" id="password-1">
+        <br><br>
+
+        <label for="date-picker-1">Choose Date : </label>
+        <input type="date" name="date-picker-1" id="date-picker-1">
+    </form> -->
+    
+</body>
+
+</html>
